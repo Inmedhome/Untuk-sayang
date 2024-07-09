@@ -1,0 +1,105 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#backgroundVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.date-time {
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.2);
+    font-family: "Baskervville SC", serif;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.static-text {
+    font-size: 10px;
+    font-family: "Rowdies", sans-serif;
+    color: black;
+}
+
+.center-message {
+    font-size: 12px;
+    width: 70%;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    font-family: "Rowdies", sans-serif;
+}
+
+.fade-in-text {
+    font-size: 12px;
+    font-family: "Rowdies", sans-serif;
+    margin-top: 20px;
+}
+
+.message-button {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.message-button img {
+    width: 50px;
+    height: 50px;
+}
+
+.flower-image {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeIn 1s;
+}
+
+.flower-image img {
+    width: 400px;
+    height: 800px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

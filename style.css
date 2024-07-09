@@ -41,7 +41,7 @@ body, html {
 }
 
 .date-time {
-    font-size: 18px;
+    font-size: 30px;
     background: rgba(0, 0, 0, 0.2);
     font-family: "Baskervville SC", serif;
     padding: 10px;
@@ -50,13 +50,13 @@ body, html {
 }
 
 .static-text {
-    font-size: 10px;
+    font-size: 20px;
     font-family: "Rowdies", sans-serif;
     color: black;
 }
 
 .center-message {
-    font-size: 12px;
+    font-size: 23px;
     width: 70%;
     background: rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -65,14 +65,14 @@ body, html {
 }
 
 .fade-in-text {
-    font-size: 12px;
+    font-size: 25px;
     font-family: "Rowdies", sans-serif;
     margin-top: 20px;
 }
 
 .message-button {
     position: absolute;
-    bottom: 80px;
+    bottom: 200px;
     left: 50%;
     transform: translateX(-50%);
     background: transparent;
